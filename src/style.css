@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+canvas {
+  display: block;
+}
+
+.ui-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  z-index: 10;
+  font-family: sans-serif;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  width: 320px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+h1 {
+  margin: 0 0 15px 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+input[type="file"] {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.control-group {
+  margin-bottom: 15px;
+}
+
+.control-group label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #ddd;
+}
+
+input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.border-top {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 15px;
+}
+
+.action-btn {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+  word-break: keep-all;
+}
+
+.action-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.record-btn.recording {
+  background: #ff4444;
+  border-color: #ff4444;
+}
