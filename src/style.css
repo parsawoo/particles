@@ -84,3 +84,22 @@ input[type="range"] {
   background: #ff4444;
   border-color: #ff4444;
 }
+
+/* 🌟 Back to Lobby 버튼 스타일 */
+.back-to-lobby {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  text-decoration: none;
+  /* 파티클 배경이 어두운 편이라면 #fff, 밝은 편이라면 #111 로 맞춰주세요 */
+  color: #ffffff; 
+  font-family: 'Space Mono', monospace, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  z-index: 9999; /* 화면 최상단에 노출 */
+  transition: opacity 0.3s;
+}
+
+.back-to-lobby:hover {
+  opacity: 0.5;
+}
